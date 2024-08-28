@@ -51,7 +51,7 @@ export default function Login({ searchParams }: { searchParams: Message }) {
       </Link>
 
       <form className="flex-1 flex flex-col w-full justify-center gap-2 text-foreground [&>input]:mb-6 max-w-md p-4">
-        <h1 className="text-2xl font-medium">Log in</h1>
+        <h1 className="text-2xl font-medium">Log in to Apollo</h1>
         <p className="text-sm text-foreground/60">
           Don't have an account?{" "}
           <Link className="text-blue-600 font-medium underline" href="/signup">
